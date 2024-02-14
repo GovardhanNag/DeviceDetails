@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DeviceDetails.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,30"
+            Spacing="15" HorizontalOptions="Center">
+            <Label Text="Device Id" TextDecorations="Underline" HorizontalTextAlignment="Center" FontSize="Large"/>
+            <Label x:Name="devId" HorizontalTextAlignment="Center" FontSize="15"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
